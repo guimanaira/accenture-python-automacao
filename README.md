@@ -14,7 +14,7 @@ Aqui estão organizados meus estudos, projetos e práticas utilizando Python, SQ
 
 ## 📂 Projetos Desenvolvidos
 Durante o aprendizado, apliquei os conhecimentos adquiridos em projetos práticos:
-- [Controle Operacional da Esteira de Crédito Imobiliário]()
+- [Controle Operacional da Esteira de Crédito Imobiliário](https://github.com/guimanaira/accenture-python-automacao/blob/main/01.%20Mortgage%20Operations%20Control/README.md)
 - [Auditoria e Conferência Documental de Financiamentos]()
 - [Monitoramento de SLA, Produtividade e Retrabalho do Backoffice]()
 - [FraudGuard: Sistema Inteligente de Detecção de Fraudes Documentais]()
