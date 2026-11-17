@@ -20,7 +20,7 @@ Repositório da trilha de **Python para Análise e Automação de Dados**, ofere
 
 ### Projetos de automação e análise
 
-- [01. Mortgage Operations Control](01.%20Mortgage%20Operations%20Control/README.md) — acompanhamento da jornada de contratos imobiliários, pendências, responsáveis e SLA.
+- [01. Mortgage Operations Control](01.%20mortgage_operations_control/README.md) — acompanhamento da jornada de contratos imobiliários, pendências, responsáveis e SLA.
 - **02. Document Compliance Analytics** — pasta reservada para o projeto.
 - **03. Backoffice Performance Intelligence** — pasta reservada para o projeto.
 - **04. Document Fraud Detection** — pasta reservada para o projeto.
