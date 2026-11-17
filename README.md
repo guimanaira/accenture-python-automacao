@@ -1,30 +1,20 @@
-# Accenture · Python para Análise e Automação de Dados
+## 🟣 Accenture · Python para Análise e Automação de Dados
+Este repositório foi desenvolvido a partir da trilha de aprendizado em **Python para Análise e Automação de Dados**, oferecido pela **DIO** em parceria com a **Accenture** com foco no desenvolvimento de habilidades em programação, dados, automação e Inteligência Artificial aplicada.
 
-Repositório da trilha de **Python para Análise e Automação de Dados**, oferecida pela DIO em parceria com a Accenture. Reúne estudos e projetos práticos com Python, SQL, automação, análise de dados e inteligência artificial.
+Aqui estão organizados meus estudos, projetos e práticas utilizando Python, SQL e ferramentas amplamente utilizadas pelo mercado, explorando desde os fundamentos da programação até aplicações voltadas para análise de dados, automação de processos e IA generativa.
 
-## Conteúdos
+## 📚 Trilha de Aprendizagem
+- Fundamentos Essenciais de Python para Análise de Dados
+- Manipulaçao de Dados com Estrututas Fundamentos em Python
+- Programação Orientada a Objeto Aplicada à Análise de Dados
+- Fundamentos de Banco de Dados e SQL
+- Preparação de Dados com Python: Bibliotecas Essenciais
+- Python Aplicado à Análise: Automação de Rotinas e Visualização
+- Fundamentos de Machine Learning
 
-- Fundamentos de Python e programação orientada a objetos.
-- Banco de dados e SQL.
-- Preparação e análise de dados com Python.
-- Automação de rotinas e visualização.
-- Fundamentos de machine learning.
-
-## Projetos
-
-### Projetos da trilha
-
-- [Detector de irregularidades em matrículas](detector_matricula/matricula.md)
-- [Detector de risco em financiamentos imobiliários](risco_financeiro/risco.md)
-- [Assistente virtual imobiliário](assistente/assistente.md)
-
-### Projetos de automação e análise
-
-- [01. Mortgage Operations Control](01.%20Mortgage%20Operations%20Control/README.md) — acompanhamento da jornada de contratos imobiliários, pendências, responsáveis e SLA.
-- **02. Document Compliance Analytics** — pasta reservada para o projeto.
-- **03. Backoffice Performance Intelligence** — pasta reservada para o projeto.
-- **04. Document Fraud Detection** — pasta reservada para o projeto.
-
-## Arquivos locais
-
-Bancos SQLite, logs, caches Python, ambientes virtuais e segredos locais são excluídos pelo `.gitignore`.
+## 📂 Projetos Desenvolvidos
+Durante o aprendizado, apliquei os conhecimentos adquiridos em projetos práticos:
+- [Controle Operacional da Esteira de Crédito Imobiliário]()
+- [Auditoria e Conferência Documental de Financiamentos]()
+- [Monitoramento de SLA, Produtividade e Retrabalho do Backoffice]()
+- [FraudGuard: Sistema Inteligente de Detecção de Fraudes Documentais]()
