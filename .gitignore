@@ -1,0 +1,17 @@
+# Python virtual environments and caches
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+
+# Local databases and runtime logs
+**/data/*.db
+**/data/*.db-*
+**/*.log
+
+# Local secrets and editor state
+**/.env
+**/.env.*
+**/.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
