@@ -18,7 +18,7 @@ Aqui estão organizados meus estudos, projetos e práticas utilizando Python, SQ
 
 Durante o aprendizado, apliquei os conhecimentos adquiridos em projetos práticos:
 
-- [Controle Operacional da Esteira de Crédito Imobiliário](01.%20mortgage_operations_control/README.md)
-- [Auditoria e Conferência Documental de Financiamentos](02.%20document_compliance_analytics/)
-- [Monitoramento de SLA, Produtividade e Retrabalho do Backoffice](03.%20backoffice_performance_intelligence/)
-- [FraudGuard: Sistema Inteligente de Detecção de Fraudes Documentais](04.%20document_fraud_detection/)
+- [Controle Operacional da Esteira de Crédito Imobiliário](mortgage_operations_control/README.md)
+- [Auditoria e Conferência Documental de Financiamentos](document_compliance_analytics/)
+- [Monitoramento de SLA, Produtividade e Retrabalho do Backoffice](backoffice_performance_intelligence/)
+- [FraudGuard: Sistema Inteligente de Detecção de Fraudes Documentais](document_fraud_detection/)
