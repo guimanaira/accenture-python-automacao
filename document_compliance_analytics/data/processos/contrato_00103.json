@@ -1,0 +1,80 @@
+{
+  "contrato": "00103",
+  "cliente": {
+    "nome": "Beatriz Gomes Martins",
+    "cpf": "000.000.103-51",
+    "endereco": "Rua das Acácias, 822, São Paulo - SP",
+    "renda_mensal": 11550.0
+  },
+  "dados_imovel": {
+    "matricula": "70103",
+    "endereco": "Rua do Imóvel, 103, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00103.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Beatriz Gomes Martins"
+      },
+      "hash_conteudo": "rg-00103"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00103.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.103-51"
+      },
+      "hash_conteudo": "cpf-00103"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00103.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Acácias, 822, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00103"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00103.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 11550.0
+      },
+      "hash_conteudo": "ren-00103"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00103.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00103"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00103.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Beatriz Gomes Martins",
+        "cpf": "000.000.103-51"
+      },
+      "hash_conteudo": "contrato-00103"
+    }
+  ]
+}

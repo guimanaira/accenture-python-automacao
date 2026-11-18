@@ -1,0 +1,80 @@
+{
+  "contrato": "00138",
+  "cliente": {
+    "nome": "Juliana Costa Bellini",
+    "cpf": "000.000.138-46",
+    "endereco": "Rua das Acácias, 1155, São Paulo - SP",
+    "renda_mensal": 13800.0
+  },
+  "dados_imovel": {
+    "matricula": "70138",
+    "endereco": "Rua do Imóvel, 138, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00138.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Juliana Costa Bellini"
+      },
+      "hash_conteudo": "rg-00138"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00138.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.138-46"
+      },
+      "hash_conteudo": "cpf-00138"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00138.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-03",
+      "dados": {
+        "endereco": "Rua das Acácias, 1155, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00138"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00138.pdf",
+      "recebido": false,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 13800.0
+      },
+      "hash_conteudo": "ren-00138"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00138.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00138"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00138.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Juliana Costa Bellini",
+        "cpf": "000.000.138-46"
+      },
+      "hash_conteudo": "contrato-00138"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "contrato": "00093",
+  "cliente": {
+    "nome": "Marcelo Müller Schneider",
+    "cpf": "000.000.093-81",
+    "endereco": "Rua Central, 1142, São Paulo - SP",
+    "renda_mensal": 9720.0
+  },
+  "dados_imovel": {
+    "matricula": "70093",
+    "endereco": "Rua do Imóvel, 93, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00093.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Marcelo Müller Schneider"
+      },
+      "hash_conteudo": "rg-00093"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00093.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.093-81"
+      },
+      "hash_conteudo": "cpf-00093"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00093.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua Central, 1142, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00093"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00093.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 10220.0
+      },
+      "hash_conteudo": "ren-00093"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00093.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-13",
+      "dados": {},
+      "hash_conteudo": "cert-00093"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00093.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Marcelo Müller Schneider",
+        "cpf": "000.000.093-81"
+      },
+      "hash_conteudo": "contrato-00093"
+    }
+  ]
+}

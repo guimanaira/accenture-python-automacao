@@ -1,0 +1,70 @@
+{
+  "contrato": "00191",
+  "cliente": {
+    "nome": "Diego Weber Wagner",
+    "cpf": "000.000.191-47",
+    "endereco": "Rua do Sol, 1477, São Paulo - SP",
+    "renda_mensal": 12940.0
+  },
+  "dados_imovel": {
+    "matricula": "70191",
+    "endereco": "Rua do Imóvel, 191, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00191.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Diego Weber Wagner"
+      },
+      "hash_conteudo": "rg-00191"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00191.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.191-47"
+      },
+      "hash_conteudo": "cpf-00191"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00191.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua do Sol, 1477, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00191"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00191.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 12940.0
+      },
+      "hash_conteudo": "ren-00191"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00191.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00191"
+    }
+  ]
+}

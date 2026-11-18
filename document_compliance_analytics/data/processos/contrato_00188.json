@@ -1,0 +1,80 @@
+{
+  "contrato": "00188",
+  "cliente": {
+    "nome": "Juliana Fontana Colombo",
+    "cpf": "000.000.188-96",
+    "endereco": "Rua Central, 206, São Paulo - SP",
+    "renda_mensal": 8820.0
+  },
+  "dados_imovel": {
+    "matricula": "70188",
+    "endereco": "Rua do Imóvel, 188, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00188.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Juliana Fontana Colombo"
+      },
+      "hash_conteudo": "rg-00188"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00188.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.188-96"
+      },
+      "hash_conteudo": "cpf-00188"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00188.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua Central, 206, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00188"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00188.pdf",
+      "recebido": false,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 8820.0
+      },
+      "hash_conteudo": "ren-00188"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00188.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00188"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00188.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Juliana Fontana Colombo",
+        "cpf": "000.000.188-96"
+      },
+      "hash_conteudo": "contrato-00188"
+    }
+  ]
+}

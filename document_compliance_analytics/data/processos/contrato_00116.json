@@ -1,0 +1,80 @@
+{
+  "contrato": "00116",
+  "cliente": {
+    "nome": "Diego Fontana Colombo",
+    "cpf": "000.000.116-72",
+    "endereco": "Rua Central, 1191, São Paulo - SP",
+    "renda_mensal": 9360.0
+  },
+  "dados_imovel": {
+    "matricula": "70116",
+    "endereco": "Rua do Imóvel, 116, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00116.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Diego Fontana Colombo"
+      },
+      "hash_conteudo": "rg-00116"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00116.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.116-72"
+      },
+      "hash_conteudo": "cpf-00116"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00116.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua Central, 1191, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00116"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00116.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 9360.0
+      },
+      "hash_conteudo": "ren-00116"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00116.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00116"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00116.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Diego Fontana Colombo",
+        "cpf": "000.000.116-72"
+      },
+      "hash_conteudo": "contrato-00116"
+    }
+  ]
+}

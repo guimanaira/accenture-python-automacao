@@ -1,0 +1,80 @@
+{
+  "contrato": "00206",
+  "cliente": {
+    "nome": "Pedro Esposito Ferrari",
+    "cpf": "000.000.206-02",
+    "endereco": "Rua das Flores, 294, São Paulo - SP",
+    "renda_mensal": 3530.0
+  },
+  "dados_imovel": {
+    "matricula": "70206",
+    "endereco": "Rua do Imóvel, 206, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00206.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Pedro Esposito Ferrari"
+      },
+      "hash_conteudo": "rg-00206"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00206.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.206-02"
+      },
+      "hash_conteudo": "cpf-00206"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00206.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Flores, 294, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00206"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00206.pdf",
+      "recebido": false,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 3530.0
+      },
+      "hash_conteudo": "ren-00206"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00206.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-13",
+      "dados": {},
+      "hash_conteudo": "cert-00206"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00206.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Pedro Esposito Ferrari",
+        "cpf": "000.000.206-02"
+      },
+      "hash_conteudo": "contrato-00206"
+    }
+  ]
+}

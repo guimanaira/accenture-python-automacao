@@ -1,0 +1,80 @@
+{
+  "contrato": "00242",
+  "cliente": {
+    "nome": "Leticia Koch Richter",
+    "cpf": "000.000.242-14",
+    "endereco": "Rua das Acácias, 304, São Paulo - SP",
+    "renda_mensal": 10050.0
+  },
+  "dados_imovel": {
+    "matricula": "70242",
+    "endereco": "Rua do Imóvel, 242, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00242.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Leticia Koch Richter"
+      },
+      "hash_conteudo": "rg-00242"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00242.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.242-14"
+      },
+      "hash_conteudo": "cpf-00242"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00242.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-03",
+      "dados": {
+        "endereco": "Rua das Acácias, 304, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00242"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00242.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 10550.0
+      },
+      "hash_conteudo": "ren-00242"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00242.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00242"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00242.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Leticia Koch Richter",
+        "cpf": "000.000.242-14"
+      },
+      "hash_conteudo": "contrato-00242"
+    }
+  ]
+}

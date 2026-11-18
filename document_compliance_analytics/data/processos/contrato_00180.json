@@ -1,0 +1,80 @@
+{
+  "contrato": "00180",
+  "cliente": {
+    "nome": "Camila Rossi Conti",
+    "cpf": "000.000.180-60",
+    "endereco": "Rua São João, 1759, São Paulo - SP",
+    "renda_mensal": 15450.0
+  },
+  "dados_imovel": {
+    "matricula": "70180",
+    "endereco": "Rua do Imóvel, 180, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00180.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Camila Rossi Conti"
+      },
+      "hash_conteudo": "rg-00180"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00180.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.180-60"
+      },
+      "hash_conteudo": "cpf-00180"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00180.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-03",
+      "dados": {
+        "endereco": "Rua São João, 1759, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00180"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00180.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 15450.0
+      },
+      "hash_conteudo": "ren-00180"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00180.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00180"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00180.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Camila Rossi Conti",
+        "cpf": "000.000.180-60"
+      },
+      "hash_conteudo": "contrato-00180"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "contrato": "00017",
+  "cliente": {
+    "nome": "Leticia Bruno De Luca",
+    "cpf": "000.000.017-89",
+    "endereco": "Rua São João, 1522, São Paulo - SP",
+    "renda_mensal": 5090.0
+  },
+  "dados_imovel": {
+    "matricula": "70017",
+    "endereco": "Rua do Imóvel, 17, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00017.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Nome divergente"
+      },
+      "hash_conteudo": "rg-00017"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00017.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.017-89"
+      },
+      "hash_conteudo": "cpf-00017"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00017.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-03",
+      "dados": {
+        "endereco": "Rua São João, 1522, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00017"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00017.pdf",
+      "recebido": false,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 5090.0
+      },
+      "hash_conteudo": "ren-00017"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00017.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00017"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00017.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Leticia Bruno De Luca",
+        "cpf": "000.000.017-89"
+      },
+      "hash_conteudo": "contrato-00017"
+    }
+  ]
+}

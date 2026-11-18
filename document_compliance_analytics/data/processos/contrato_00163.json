@@ -1,0 +1,70 @@
+{
+  "contrato": "00163",
+  "cliente": {
+    "nome": "Juliana Giordano Rinaldi",
+    "cpf": "000.000.163-71",
+    "endereco": "Rua Ipê Amarelo, 553, São Paulo - SP",
+    "renda_mensal": 5650.0
+  },
+  "dados_imovel": {
+    "matricula": "70163",
+    "endereco": "Rua do Imóvel, 163, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00163.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Juliana Giordano Rinaldi"
+      },
+      "hash_conteudo": "rg-00163"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00163.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.163-71"
+      },
+      "hash_conteudo": "cpf-00163"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00163.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-03",
+      "dados": {
+        "endereco": "Rua Ipê Amarelo, 553, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00163"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00163.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 5650.0
+      },
+      "hash_conteudo": "ren-00163"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00163.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00163"
+    }
+  ]
+}

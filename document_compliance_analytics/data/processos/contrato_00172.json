@@ -1,0 +1,80 @@
+{
+  "contrato": "00172",
+  "cliente": {
+    "nome": "Vinicius Neumann Krüger",
+    "cpf": "000.000.172-24",
+    "endereco": "Rua São João, 510, São Paulo - SP",
+    "renda_mensal": 6610.0
+  },
+  "dados_imovel": {
+    "matricula": "70172",
+    "endereco": "Rua do Imóvel, 172, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00172.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Vinicius Neumann Krüger"
+      },
+      "hash_conteudo": "rg-00172"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00172.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.172-24"
+      },
+      "hash_conteudo": "cpf-00172"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00172.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua São João, 510, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00172"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00172.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 6610.0
+      },
+      "hash_conteudo": "ren-00172"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00172.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00172"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00172.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Vinicius Neumann Krüger",
+        "cpf": "000.000.172-24"
+      },
+      "hash_conteudo": "contrato-00172"
+    }
+  ]
+}

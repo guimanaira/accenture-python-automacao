@@ -1,0 +1,80 @@
+{
+  "contrato": "00048",
+  "cliente": {
+    "nome": "Carolina Becker Hoffmann",
+    "cpf": "000.000.048-16",
+    "endereco": "Rua São João, 807, São Paulo - SP",
+    "renda_mensal": 3500.0
+  },
+  "dados_imovel": {
+    "matricula": "70048",
+    "endereco": "Rua do Imóvel, 48, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00048.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Carolina Becker Hoffmann"
+      },
+      "hash_conteudo": "rg-00048"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00048.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.048-16"
+      },
+      "hash_conteudo": "cpf-00048"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00048.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua São João, 807, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00048"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00048.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 3500.0
+      },
+      "hash_conteudo": "ren-00048"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00048.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00048"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00048.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Carolina Becker Hoffmann",
+        "cpf": "000.000.048-16"
+      },
+      "hash_conteudo": "contrato-00048"
+    }
+  ]
+}

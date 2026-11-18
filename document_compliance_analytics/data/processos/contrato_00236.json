@@ -1,0 +1,80 @@
+{
+  "contrato": "00236",
+  "cliente": {
+    "nome": "Ana Fontana Colombo",
+    "cpf": "000.000.236-12",
+    "endereco": "Rua das Palmeiras, 782, São Paulo - SP",
+    "renda_mensal": 6990.0
+  },
+  "dados_imovel": {
+    "matricula": "70236",
+    "endereco": "Rua do Imóvel, 236, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00236.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Ana Fontana Colombo"
+      },
+      "hash_conteudo": "rg-00236"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00236.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.236-12"
+      },
+      "hash_conteudo": "cpf-00236"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00236.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Palmeiras, 782, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00236"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00236.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 7490.0
+      },
+      "hash_conteudo": "ren-00236"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00236.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00236"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00236.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Ana Fontana Colombo",
+        "cpf": "000.000.236-12"
+      },
+      "hash_conteudo": "contrato-00236"
+    }
+  ]
+}

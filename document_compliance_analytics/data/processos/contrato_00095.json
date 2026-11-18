@@ -1,0 +1,80 @@
+{
+  "contrato": "00095",
+  "cliente": {
+    "nome": "Eduardo Weber Wagner",
+    "cpf": "000.000.095-15",
+    "endereco": "Rua das Flores, 1676, São Paulo - SP",
+    "renda_mensal": 10880.0
+  },
+  "dados_imovel": {
+    "matricula": "70095",
+    "endereco": "Rua do Imóvel, 95, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00095.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Nome divergente"
+      },
+      "hash_conteudo": "rg-00095"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00095.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.095-15"
+      },
+      "hash_conteudo": "cpf-00095"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00095.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Flores, 1676, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00095"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00095.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 10880.0
+      },
+      "hash_conteudo": "ren-00095"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00095.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00095"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00095.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Eduardo Weber Wagner",
+        "cpf": "000.000.095-15"
+      },
+      "hash_conteudo": "contrato-00095"
+    }
+  ]
+}

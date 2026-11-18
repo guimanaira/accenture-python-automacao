@@ -1,0 +1,80 @@
+{
+  "contrato": "00164",
+  "cliente": {
+    "nome": "Thiago Fontana Colombo",
+    "cpf": "000.000.164-88",
+    "endereco": "Rua do Sol, 1081, São Paulo - SP",
+    "renda_mensal": 6510.0
+  },
+  "dados_imovel": {
+    "matricula": "70164",
+    "endereco": "Rua do Imóvel, 164, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00164.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Nome divergente"
+      },
+      "hash_conteudo": "rg-00164"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00164.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.164-88"
+      },
+      "hash_conteudo": "cpf-00164"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00164.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua do Sol, 1081, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00164"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00164.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 6510.0
+      },
+      "hash_conteudo": "ren-00164"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00164.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00164"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00164.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Thiago Fontana Colombo",
+        "cpf": "000.000.164-88"
+      },
+      "hash_conteudo": "contrato-00164"
+    }
+  ]
+}

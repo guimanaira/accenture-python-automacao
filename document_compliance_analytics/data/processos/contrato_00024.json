@@ -1,0 +1,70 @@
+{
+  "contrato": "00024",
+  "cliente": {
+    "nome": "Andre Becker Hoffmann",
+    "cpf": "000.000.024-08",
+    "endereco": "Rua Central, 334, São Paulo - SP",
+    "renda_mensal": 4180.0
+  },
+  "dados_imovel": {
+    "matricula": "70024",
+    "endereco": "Rua do Imóvel, 24, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00024.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Andre Becker Hoffmann"
+      },
+      "hash_conteudo": "rg-00024"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00024.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.024-08"
+      },
+      "hash_conteudo": "cpf-00024"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00024.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua Central, 334, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00024"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00024.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 4680.0
+      },
+      "hash_conteudo": "ren-00024"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00024.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-13",
+      "dados": {},
+      "hash_conteudo": "cert-00024"
+    }
+  ]
+}

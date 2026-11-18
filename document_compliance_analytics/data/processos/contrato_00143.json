@@ -1,0 +1,80 @@
+{
+  "contrato": "00143",
+  "cliente": {
+    "nome": "Marcelo Weber Wagner",
+    "cpf": "000.000.143-31",
+    "endereco": "Rua São João, 1681, São Paulo - SP",
+    "renda_mensal": 12820.0
+  },
+  "dados_imovel": {
+    "matricula": "70143",
+    "endereco": "Rua do Imóvel, 143, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00143.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Marcelo Weber Wagner"
+      },
+      "hash_conteudo": "rg-00143"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00143.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.143-31"
+      },
+      "hash_conteudo": "cpf-00143"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00143.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua São João, 1681, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00143"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00143.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 12820.0
+      },
+      "hash_conteudo": "ren-00143"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00143.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-13",
+      "dados": {},
+      "hash_conteudo": "cert-00143"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00143.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Marcelo Weber Wagner",
+        "cpf": "000.000.143-31"
+      },
+      "hash_conteudo": "contrato-00143"
+    }
+  ]
+}

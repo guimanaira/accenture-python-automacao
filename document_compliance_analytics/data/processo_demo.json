@@ -1,0 +1,17 @@
+{
+  "contrato": "00125",
+  "cliente": {
+    "nome": "Mariana Costa Lima",
+    "cpf": "123.456.789-00",
+    "endereco": "Rua das Flores, 120, São Paulo - SP",
+    "renda_mensal": 8500.0
+  },
+  "dados_imovel": {"matricula": "45871", "endereco": "Rua das Acácias, 55, São Paulo - SP"},
+  "checklist": ["identificacao", "cpf", "comprovante_renda", "comprovante_residencia", "certidoes"],
+  "documentos": [
+    {"tipo": "identificacao", "nome_arquivo": "rg_mariana.pdf", "recebido": true, "data_validade": "2030-05-20", "dados": {"nome": "Mariana Costa Lima"}, "hash_conteudo": "rg-a1"},
+    {"tipo": "cpf", "nome_arquivo": "cpf_mariana.pdf", "recebido": true, "dados": {"cpf": "123.456.789-00"}, "hash_conteudo": "cpf-b2"},
+    {"tipo": "comprovante_residencia", "nome_arquivo": "residencia.pdf", "recebido": true, "data_validade": "2026-12-30", "dados": {"endereco": "Rua das Flores, 120, São Paulo - SP"}, "hash_conteudo": "res-c3"},
+    {"tipo": "certidoes", "nome_arquivo": "certidoes.pdf", "recebido": true, "data_validade": "2026-10-30", "dados": {}, "hash_conteudo": "cer-f6"}
+  ]
+}

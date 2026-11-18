@@ -1,0 +1,80 @@
+{
+  "contrato": "00110",
+  "cliente": {
+    "nome": "Gustavo Esposito Ferrari",
+    "cpf": "000.000.110-70",
+    "endereco": "Rua das Acácias, 740, São Paulo - SP",
+    "renda_mensal": 4700.0
+  },
+  "dados_imovel": {
+    "matricula": "70110",
+    "endereco": "Rua do Imóvel, 110, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00110.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Gustavo Esposito Ferrari"
+      },
+      "hash_conteudo": "rg-00110"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00110.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.110-70"
+      },
+      "hash_conteudo": "cpf-00110"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00110.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-03",
+      "dados": {
+        "endereco": "Rua das Acácias, 740, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00110"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00110.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 4700.0
+      },
+      "hash_conteudo": "ren-00110"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00110.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00110"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00110.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Gustavo Esposito Ferrari",
+        "cpf": "000.000.110-70"
+      },
+      "hash_conteudo": "contrato-00110"
+    }
+  ]
+}

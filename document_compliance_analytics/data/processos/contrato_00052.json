@@ -1,0 +1,80 @@
+{
+  "contrato": "00052",
+  "cliente": {
+    "nome": "Lucas Souza Mendes",
+    "cpf": "000.000.052-84",
+    "endereco": "Rua das Acácias, 1632, São Paulo - SP",
+    "renda_mensal": 11470.0
+  },
+  "dados_imovel": {
+    "matricula": "70052",
+    "endereco": "Rua do Imóvel, 52, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00052.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Lucas Souza Mendes"
+      },
+      "hash_conteudo": "rg-00052"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00052.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.052-84"
+      },
+      "hash_conteudo": "cpf-00052"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00052.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Acácias, 1632, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00052"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00052.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 11470.0
+      },
+      "hash_conteudo": "ren-00052"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00052.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00052"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00052.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Lucas Souza Mendes",
+        "cpf": "000.000.052-84"
+      },
+      "hash_conteudo": "contrato-00052"
+    }
+  ]
+}

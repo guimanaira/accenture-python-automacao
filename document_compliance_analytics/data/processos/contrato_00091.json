@@ -1,0 +1,80 @@
+{
+  "contrato": "00091",
+  "cliente": {
+    "nome": "Diego Giordano Rinaldi",
+    "cpf": "000.000.091-47",
+    "endereco": "Rua Central, 278, São Paulo - SP",
+    "renda_mensal": 5010.0
+  },
+  "dados_imovel": {
+    "matricula": "70091",
+    "endereco": "Rua do Imóvel, 91, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00091.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Diego Giordano Rinaldi"
+      },
+      "hash_conteudo": "rg-00091"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00091.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.091-47"
+      },
+      "hash_conteudo": "cpf-00091"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00091.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-03",
+      "dados": {
+        "endereco": "Rua Central, 278, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00091"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00091.pdf",
+      "recebido": false,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 5010.0
+      },
+      "hash_conteudo": "ren-00091"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00091.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00091"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00091.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Diego Giordano Rinaldi",
+        "cpf": "000.000.091-47"
+      },
+      "hash_conteudo": "contrato-00091"
+    }
+  ]
+}

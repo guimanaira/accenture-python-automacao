@@ -1,0 +1,80 @@
+{
+  "contrato": "00077",
+  "cliente": {
+    "nome": "Lucas Ferreira Alves",
+    "cpf": "000.000.077-09",
+    "endereco": "Rua Boa Vista, 1308, São Paulo - SP",
+    "renda_mensal": 11630.0
+  },
+  "dados_imovel": {
+    "matricula": "70077",
+    "endereco": "Rua do Imóvel, 77, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00077.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Lucas Ferreira Alves"
+      },
+      "hash_conteudo": "rg-00077"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00077.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.077-09"
+      },
+      "hash_conteudo": "cpf-00077"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00077.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-03",
+      "dados": {
+        "endereco": "Rua Boa Vista, 1308, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00077"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00077.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 12130.0
+      },
+      "hash_conteudo": "ren-00077"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00077.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00077"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00077.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Lucas Ferreira Alves",
+        "cpf": "000.000.077-09"
+      },
+      "hash_conteudo": "contrato-00077"
+    }
+  ]
+}

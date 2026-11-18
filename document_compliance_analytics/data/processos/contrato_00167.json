@@ -1,0 +1,80 @@
+{
+  "contrato": "00167",
+  "cliente": {
+    "nome": "Leticia Weber Wagner",
+    "cpf": "000.000.167-39",
+    "endereco": "Rua Central, 658, São Paulo - SP",
+    "renda_mensal": 5760.0
+  },
+  "dados_imovel": {
+    "matricula": "70167",
+    "endereco": "Rua do Imóvel, 167, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00167.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Leticia Weber Wagner"
+      },
+      "hash_conteudo": "rg-00167"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00167.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.167-39"
+      },
+      "hash_conteudo": "cpf-00167"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00167.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua Central, 658, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00167"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00167.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 5760.0
+      },
+      "hash_conteudo": "ren-00167"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00167.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00167"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00167.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Leticia Weber Wagner",
+        "cpf": "000.000.167-39"
+      },
+      "hash_conteudo": "contrato-00167"
+    }
+  ]
+}

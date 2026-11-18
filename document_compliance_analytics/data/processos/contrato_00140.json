@@ -1,0 +1,80 @@
+{
+  "contrato": "00140",
+  "cliente": {
+    "nome": "Fernanda Fontana Colombo",
+    "cpf": "000.000.140-80",
+    "endereco": "Rua São João, 1454, São Paulo - SP",
+    "renda_mensal": 4960.0
+  },
+  "dados_imovel": {
+    "matricula": "70140",
+    "endereco": "Rua do Imóvel, 140, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00140.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Fernanda Fontana Colombo"
+      },
+      "hash_conteudo": "rg-00140"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00140.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.140-80"
+      },
+      "hash_conteudo": "cpf-00140"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00140.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua São João, 1454, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00140"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00140.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 4960.0
+      },
+      "hash_conteudo": "ren-00140"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00140.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00140"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00140.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Fernanda Fontana Colombo",
+        "cpf": "000.000.140-80"
+      },
+      "hash_conteudo": "contrato-00140"
+    }
+  ]
+}

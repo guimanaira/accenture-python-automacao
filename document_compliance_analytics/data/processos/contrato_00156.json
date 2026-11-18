@@ -1,0 +1,80 @@
+{
+  "contrato": "00156",
+  "cliente": {
+    "nome": "Pedro Rossi Conti",
+    "cpf": "000.000.156-52",
+    "endereco": "Rua Boa Vista, 1541, São Paulo - SP",
+    "renda_mensal": 12520.0
+  },
+  "dados_imovel": {
+    "matricula": "70156",
+    "endereco": "Rua do Imóvel, 156, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00156.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Pedro Rossi Conti"
+      },
+      "hash_conteudo": "rg-00156"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00156.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.156-52"
+      },
+      "hash_conteudo": "cpf-00156"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00156.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua Boa Vista, 1541, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00156"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00156.pdf",
+      "recebido": false,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 12520.0
+      },
+      "hash_conteudo": "ren-00156"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00156.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00156"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00156.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Pedro Rossi Conti",
+        "cpf": "000.000.156-52"
+      },
+      "hash_conteudo": "contrato-00156"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "contrato": "00214",
+  "cliente": {
+    "nome": "Thiago Schmidt Fischer",
+    "cpf": "000.000.214-38",
+    "endereco": "Rua das Acácias, 809, São Paulo - SP",
+    "renda_mensal": 9440.0
+  },
+  "dados_imovel": {
+    "matricula": "70214",
+    "endereco": "Rua do Imóvel, 214, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00214.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Thiago Schmidt Fischer"
+      },
+      "hash_conteudo": "rg-00214"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00214.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.214-38"
+      },
+      "hash_conteudo": "cpf-00214"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00214.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Acácias, 809, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00214"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00214.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 9440.0
+      },
+      "hash_conteudo": "ren-00214"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00214.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00214"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00214.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Thiago Schmidt Fischer",
+        "cpf": "000.000.214-38"
+      },
+      "hash_conteudo": "contrato-00214"
+    }
+  ]
+}

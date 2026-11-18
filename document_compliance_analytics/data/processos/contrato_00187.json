@@ -1,0 +1,70 @@
+{
+  "contrato": "00187",
+  "cliente": {
+    "nome": "Bruno Giordano Rinaldi",
+    "cpf": "000.000.187-79",
+    "endereco": "Rua Central, 200, São Paulo - SP",
+    "renda_mensal": 13940.0
+  },
+  "dados_imovel": {
+    "matricula": "70187",
+    "endereco": "Rua do Imóvel, 187, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00187.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Bruno Giordano Rinaldi"
+      },
+      "hash_conteudo": "rg-00187"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00187.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.187-79"
+      },
+      "hash_conteudo": "cpf-00187"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00187.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua Central, 200, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00187"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00187.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 14440.0
+      },
+      "hash_conteudo": "ren-00187"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00187.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00187"
+    }
+  ]
+}

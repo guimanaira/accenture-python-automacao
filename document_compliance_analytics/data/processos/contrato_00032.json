@@ -1,0 +1,80 @@
+{
+  "contrato": "00032",
+  "cliente": {
+    "nome": "Larissa Carvalho Nunes",
+    "cpf": "000.000.032-44",
+    "endereco": "Rua São João, 54, São Paulo - SP",
+    "renda_mensal": 13600.0
+  },
+  "dados_imovel": {
+    "matricula": "70032",
+    "endereco": "Rua do Imóvel, 32, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00032.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Larissa Carvalho Nunes"
+      },
+      "hash_conteudo": "rg-00032"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00032.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.032-44"
+      },
+      "hash_conteudo": "cpf-00032"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00032.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-03",
+      "dados": {
+        "endereco": "Rua São João, 54, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00032"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00032.pdf",
+      "recebido": false,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 13600.0
+      },
+      "hash_conteudo": "ren-00032"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00032.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00032"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00032.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Larissa Carvalho Nunes",
+        "cpf": "000.000.032-44"
+      },
+      "hash_conteudo": "contrato-00032"
+    }
+  ]
+}

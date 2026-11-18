@@ -1,0 +1,80 @@
+{
+  "contrato": "00037",
+  "cliente": {
+    "nome": "Bruno Romano Gallo",
+    "cpf": "000.000.037-29",
+    "endereco": "Rua São João, 683, São Paulo - SP",
+    "renda_mensal": 7210.0
+  },
+  "dados_imovel": {
+    "matricula": "70037",
+    "endereco": "Rua do Imóvel, 37, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00037.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Bruno Romano Gallo"
+      },
+      "hash_conteudo": "rg-00037"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00037.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.037-29"
+      },
+      "hash_conteudo": "cpf-00037"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00037.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua São João, 683, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00037"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00037.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 7210.0
+      },
+      "hash_conteudo": "ren-00037"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00037.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00037"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00037.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Bruno Romano Gallo",
+        "cpf": "000.000.037-29"
+      },
+      "hash_conteudo": "contrato-00037"
+    }
+  ]
+}

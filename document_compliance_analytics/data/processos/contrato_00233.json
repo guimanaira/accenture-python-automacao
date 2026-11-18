@@ -1,0 +1,80 @@
+{
+  "contrato": "00233",
+  "cliente": {
+    "nome": "Felipe Bruno De Luca",
+    "cpf": "000.000.233-61",
+    "endereco": "Rua das Acácias, 236, São Paulo - SP",
+    "renda_mensal": 16100.0
+  },
+  "dados_imovel": {
+    "matricula": "70233",
+    "endereco": "Rua do Imóvel, 233, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00233.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Felipe Bruno De Luca"
+      },
+      "hash_conteudo": "rg-00233"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00233.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.233-61"
+      },
+      "hash_conteudo": "cpf-00233"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00233.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-03",
+      "dados": {
+        "endereco": "Rua das Acácias, 236, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00233"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00233.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 16100.0
+      },
+      "hash_conteudo": "ren-00233"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00233.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00233"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00233.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Felipe Bruno De Luca",
+        "cpf": "000.000.233-61"
+      },
+      "hash_conteudo": "contrato-00233"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "contrato": "00056",
+  "cliente": {
+    "nome": "Pedro Carvalho Nunes",
+    "cpf": "000.000.056-52",
+    "endereco": "Rua do Sol, 919, São Paulo - SP",
+    "renda_mensal": 14520.0
+  },
+  "dados_imovel": {
+    "matricula": "70056",
+    "endereco": "Rua do Imóvel, 56, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00056.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Pedro Carvalho Nunes"
+      },
+      "hash_conteudo": "rg-00056"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00056.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.056-52"
+      },
+      "hash_conteudo": "cpf-00056"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00056.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua do Sol, 919, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00056"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00056.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 14520.0
+      },
+      "hash_conteudo": "ren-00056"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00056.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00056"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00056.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Pedro Carvalho Nunes",
+        "cpf": "000.000.056-52"
+      },
+      "hash_conteudo": "contrato-00056"
+    }
+  ]
+}

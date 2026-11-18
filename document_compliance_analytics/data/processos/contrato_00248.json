@@ -1,0 +1,80 @@
+{
+  "contrato": "00248",
+  "cliente": {
+    "nome": "Carolina Almeida Santos",
+    "cpf": "000.000.248-16",
+    "endereco": "Rua das Palmeiras, 698, São Paulo - SP",
+    "renda_mensal": 7490.0
+  },
+  "dados_imovel": {
+    "matricula": "70248",
+    "endereco": "Rua do Imóvel, 248, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00248.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Carolina Almeida Santos"
+      },
+      "hash_conteudo": "rg-00248"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00248.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.248-16"
+      },
+      "hash_conteudo": "cpf-00248"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00248.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Palmeiras, 698, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00248"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00248.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 7490.0
+      },
+      "hash_conteudo": "ren-00248"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00248.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00248"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00248.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Carolina Almeida Santos",
+        "cpf": "000.000.248-16"
+      },
+      "hash_conteudo": "contrato-00248"
+    }
+  ]
+}

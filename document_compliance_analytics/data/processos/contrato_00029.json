@@ -1,0 +1,80 @@
+{
+  "contrato": "00029",
+  "cliente": {
+    "nome": "Rafael Ferreira Alves",
+    "cpf": "000.000.029-93",
+    "endereco": "Rua das Acácias, 948, São Paulo - SP",
+    "renda_mensal": 7670.0
+  },
+  "dados_imovel": {
+    "matricula": "70029",
+    "endereco": "Rua do Imóvel, 29, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00029.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Rafael Ferreira Alves"
+      },
+      "hash_conteudo": "rg-00029"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00029.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.029-93"
+      },
+      "hash_conteudo": "cpf-00029"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00029.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Acácias, 948, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00029"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00029.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 7670.0
+      },
+      "hash_conteudo": "ren-00029"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00029.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-13",
+      "dados": {},
+      "hash_conteudo": "cert-00029"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00029.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Rafael Ferreira Alves",
+        "cpf": "000.000.029-93"
+      },
+      "hash_conteudo": "contrato-00029"
+    }
+  ]
+}

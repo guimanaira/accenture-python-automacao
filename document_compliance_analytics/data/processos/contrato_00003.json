@@ -1,0 +1,80 @@
+{
+  "contrato": "00003",
+  "cliente": {
+    "nome": "Beatriz Oliveira Rocha",
+    "cpf": "000.000.003-51",
+    "endereco": "Rua das Acácias, 1461, São Paulo - SP",
+    "renda_mensal": 16600.0
+  },
+  "dados_imovel": {
+    "matricula": "70003",
+    "endereco": "Rua do Imóvel, 3, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00003.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Nome divergente"
+      },
+      "hash_conteudo": "rg-00003"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00003.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.003-51"
+      },
+      "hash_conteudo": "cpf-00003"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00003.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Acácias, 1461, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00003"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00003.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 16600.0
+      },
+      "hash_conteudo": "ren-00003"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00003.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-13",
+      "dados": {},
+      "hash_conteudo": "cert-00003"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00003.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Beatriz Oliveira Rocha",
+        "cpf": "000.000.003-51"
+      },
+      "hash_conteudo": "contrato-00003"
+    }
+  ]
+}

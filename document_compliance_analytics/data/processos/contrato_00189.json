@@ -1,0 +1,80 @@
+{
+  "contrato": "00189",
+  "cliente": {
+    "nome": "Thiago Müller Schneider",
+    "cpf": "000.000.189-13",
+    "endereco": "Rua das Flores, 1207, São Paulo - SP",
+    "renda_mensal": 13450.0
+  },
+  "dados_imovel": {
+    "matricula": "70189",
+    "endereco": "Rua do Imóvel, 189, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00189.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Thiago Müller Schneider"
+      },
+      "hash_conteudo": "rg-00189"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00189.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.189-13"
+      },
+      "hash_conteudo": "cpf-00189"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00189.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Flores, 1207, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00189"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00189.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 13450.0
+      },
+      "hash_conteudo": "ren-00189"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00189.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00189"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00189.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Thiago Müller Schneider",
+        "cpf": "000.000.189-13"
+      },
+      "hash_conteudo": "contrato-00189"
+    }
+  ]
+}

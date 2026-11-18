@@ -1,0 +1,80 @@
+{
+  "contrato": "00130",
+  "cliente": {
+    "nome": "Camila Araujo Silva",
+    "cpf": "000.000.130-10",
+    "endereco": "Rua Ipê Amarelo, 959, São Paulo - SP",
+    "renda_mensal": 16040.0
+  },
+  "dados_imovel": {
+    "matricula": "70130",
+    "endereco": "Rua do Imóvel, 130, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00130.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Camila Araujo Silva"
+      },
+      "hash_conteudo": "rg-00130"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00130.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.130-10"
+      },
+      "hash_conteudo": "cpf-00130"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00130.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua Ipê Amarelo, 959, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00130"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00130.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 16040.0
+      },
+      "hash_conteudo": "ren-00130"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00130.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00130"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00130.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Camila Araujo Silva",
+        "cpf": "000.000.130-10"
+      },
+      "hash_conteudo": "contrato-00130"
+    }
+  ]
+}

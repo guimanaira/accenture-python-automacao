@@ -1,0 +1,80 @@
+{
+  "contrato": "00210",
+  "cliente": {
+    "nome": "Gustavo Costa Bellini",
+    "cpf": "000.000.210-70",
+    "endereco": "Rua São João, 1675, São Paulo - SP",
+    "renda_mensal": 16900.0
+  },
+  "dados_imovel": {
+    "matricula": "70210",
+    "endereco": "Rua do Imóvel, 210, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00210.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Nome divergente"
+      },
+      "hash_conteudo": "rg-00210"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00210.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.210-70"
+      },
+      "hash_conteudo": "cpf-00210"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00210.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua São João, 1675, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00210"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00210.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 16900.0
+      },
+      "hash_conteudo": "ren-00210"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00210.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00210"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00210.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Gustavo Costa Bellini",
+        "cpf": "000.000.210-70"
+      },
+      "hash_conteudo": "contrato-00210"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "contrato": "00179",
+  "cliente": {
+    "nome": "Rafael Bianchi Moretti",
+    "cpf": "000.000.179-43",
+    "endereco": "Rua do Sol, 608, São Paulo - SP",
+    "renda_mensal": 17900.0
+  },
+  "dados_imovel": {
+    "matricula": "70179",
+    "endereco": "Rua do Imóvel, 179, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00179.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Nome divergente"
+      },
+      "hash_conteudo": "rg-00179"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00179.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.179-43"
+      },
+      "hash_conteudo": "cpf-00179"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00179.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua do Sol, 608, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00179"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00179.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 17900.0
+      },
+      "hash_conteudo": "ren-00179"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00179.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00179"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00179.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Rafael Bianchi Moretti",
+        "cpf": "000.000.179-43"
+      },
+      "hash_conteudo": "contrato-00179"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "contrato": "00136",
+  "cliente": {
+    "nome": "Ana Marino Greco",
+    "cpf": "000.000.136-12",
+    "endereco": "Rua das Acácias, 214, São Paulo - SP",
+    "renda_mensal": 16410.0
+  },
+  "dados_imovel": {
+    "matricula": "70136",
+    "endereco": "Rua do Imóvel, 136, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00136.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Nome divergente"
+      },
+      "hash_conteudo": "rg-00136"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00136.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.136-12"
+      },
+      "hash_conteudo": "cpf-00136"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00136.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Acácias, 214, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00136"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00136.pdf",
+      "recebido": false,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 16410.0
+      },
+      "hash_conteudo": "ren-00136"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00136.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-13",
+      "dados": {},
+      "hash_conteudo": "cert-00136"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00136.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Ana Marino Greco",
+        "cpf": "000.000.136-12"
+      },
+      "hash_conteudo": "contrato-00136"
+    }
+  ]
+}

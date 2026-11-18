@@ -1,0 +1,70 @@
+{
+  "contrato": "00234",
+  "cliente": {
+    "nome": "Isabela Costa Bellini",
+    "cpf": "000.000.234-78",
+    "endereco": "Rua Central, 1250, São Paulo - SP",
+    "renda_mensal": 14110.0
+  },
+  "dados_imovel": {
+    "matricula": "70234",
+    "endereco": "Rua do Imóvel, 234, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00234.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Nome divergente"
+      },
+      "hash_conteudo": "rg-00234"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00234.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.234-78"
+      },
+      "hash_conteudo": "cpf-00234"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00234.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua Central, 1250, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00234"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00234.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 14110.0
+      },
+      "hash_conteudo": "ren-00234"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00234.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00234"
+    }
+  ]
+}

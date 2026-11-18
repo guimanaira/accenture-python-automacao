@@ -1,0 +1,80 @@
+{
+  "contrato": "00058",
+  "cliente": {
+    "nome": "Felipe Araujo Silva",
+    "cpf": "000.000.058-86",
+    "endereco": "Rua das Acácias, 1537, São Paulo - SP",
+    "renda_mensal": 5500.0
+  },
+  "dados_imovel": {
+    "matricula": "70058",
+    "endereco": "Rua do Imóvel, 58, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00058.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Felipe Araujo Silva"
+      },
+      "hash_conteudo": "rg-00058"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00058.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.058-86"
+      },
+      "hash_conteudo": "cpf-00058"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00058.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-03",
+      "dados": {
+        "endereco": "Rua das Acácias, 1537, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00058"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00058.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 6000.0
+      },
+      "hash_conteudo": "ren-00058"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00058.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00058"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00058.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Felipe Araujo Silva",
+        "cpf": "000.000.058-86"
+      },
+      "hash_conteudo": "contrato-00058"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "contrato": "00115",
+  "cliente": {
+    "nome": "Fernanda Giordano Rinaldi",
+    "cpf": "000.000.115-55",
+    "endereco": "Rua Boa Vista, 363, São Paulo - SP",
+    "renda_mensal": 7470.0
+  },
+  "dados_imovel": {
+    "matricula": "70115",
+    "endereco": "Rua do Imóvel, 115, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00115.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Fernanda Giordano Rinaldi"
+      },
+      "hash_conteudo": "rg-00115"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00115.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.115-55"
+      },
+      "hash_conteudo": "cpf-00115"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00115.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua Boa Vista, 363, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00115"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00115.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 7470.0
+      },
+      "hash_conteudo": "ren-00115"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00115.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00115"
+    }
+  ]
+}

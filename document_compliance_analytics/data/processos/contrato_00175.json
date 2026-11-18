@@ -1,0 +1,70 @@
+{
+  "contrato": "00175",
+  "cliente": {
+    "nome": "Daniela Costa Lima",
+    "cpf": "000.000.175-75",
+    "endereco": "Rua das Palmeiras, 1587, São Paulo - SP",
+    "renda_mensal": 17800.0
+  },
+  "dados_imovel": {
+    "matricula": "70175",
+    "endereco": "Rua do Imóvel, 175, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00175.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Nome divergente"
+      },
+      "hash_conteudo": "rg-00175"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00175.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.175-75"
+      },
+      "hash_conteudo": "cpf-00175"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00175.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Palmeiras, 1587, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00175"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00175.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 17800.0
+      },
+      "hash_conteudo": "ren-00175"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00175.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-13",
+      "dados": {},
+      "hash_conteudo": "cert-00175"
+    }
+  ]
+}

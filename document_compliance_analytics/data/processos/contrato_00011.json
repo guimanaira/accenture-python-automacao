@@ -1,0 +1,70 @@
+{
+  "contrato": "00011",
+  "cliente": {
+    "nome": "Ana Bianchi Moretti",
+    "cpf": "000.000.011-87",
+    "endereco": "Rua das Palmeiras, 1246, São Paulo - SP",
+    "renda_mensal": 17340.0
+  },
+  "dados_imovel": {
+    "matricula": "70011",
+    "endereco": "Rua do Imóvel, 11, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00011.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Ana Bianchi Moretti"
+      },
+      "hash_conteudo": "rg-00011"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00011.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.011-87"
+      },
+      "hash_conteudo": "cpf-00011"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00011.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Palmeiras, 1246, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00011"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00011.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 17840.0
+      },
+      "hash_conteudo": "ren-00011"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00011.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00011"
+    }
+  ]
+}

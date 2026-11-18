@@ -1,0 +1,70 @@
+{
+  "contrato": "00238",
+  "cliente": {
+    "nome": "Juliana Schmidt Fischer",
+    "cpf": "000.000.238-46",
+    "endereco": "Rua das Acácias, 803, São Paulo - SP",
+    "renda_mensal": 15450.0
+  },
+  "dados_imovel": {
+    "matricula": "70238",
+    "endereco": "Rua do Imóvel, 238, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00238.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Juliana Schmidt Fischer"
+      },
+      "hash_conteudo": "rg-00238"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00238.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.238-46"
+      },
+      "hash_conteudo": "cpf-00238"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00238.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Acácias, 803, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00238"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00238.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 15450.0
+      },
+      "hash_conteudo": "ren-00238"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00238.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00238"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "contrato": "00012",
+  "cliente": {
+    "nome": "Bruno Rossi Conti",
+    "cpf": "000.000.012-04",
+    "endereco": "Rua Ipê Amarelo, 1089, São Paulo - SP",
+    "renda_mensal": 11070.0
+  },
+  "dados_imovel": {
+    "matricula": "70012",
+    "endereco": "Rua do Imóvel, 12, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00012.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Bruno Rossi Conti"
+      },
+      "hash_conteudo": "rg-00012"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00012.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.012-04"
+      },
+      "hash_conteudo": "cpf-00012"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00012.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua Ipê Amarelo, 1089, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00012"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00012.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 11070.0
+      },
+      "hash_conteudo": "ren-00012"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00012.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00012"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00012.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Bruno Rossi Conti",
+        "cpf": "000.000.012-04"
+      },
+      "hash_conteudo": "contrato-00012"
+    }
+  ]
+}

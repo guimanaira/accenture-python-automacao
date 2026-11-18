@@ -1,0 +1,80 @@
+{
+  "contrato": "00027",
+  "cliente": {
+    "nome": "Lucas Oliveira Rocha",
+    "cpf": "000.000.027-59",
+    "endereco": "Rua do Sol, 1425, São Paulo - SP",
+    "renda_mensal": 10190.0
+  },
+  "dados_imovel": {
+    "matricula": "70027",
+    "endereco": "Rua do Imóvel, 27, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00027.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Lucas Oliveira Rocha"
+      },
+      "hash_conteudo": "rg-00027"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00027.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.027-59"
+      },
+      "hash_conteudo": "cpf-00027"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00027.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua do Sol, 1425, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00027"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00027.pdf",
+      "recebido": false,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 10190.0
+      },
+      "hash_conteudo": "ren-00027"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00027.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00027"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00027.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Lucas Oliveira Rocha",
+        "cpf": "000.000.027-59"
+      },
+      "hash_conteudo": "contrato-00027"
+    }
+  ]
+}

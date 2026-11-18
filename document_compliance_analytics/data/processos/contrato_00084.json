@@ -1,0 +1,70 @@
+{
+  "contrato": "00084",
+  "cliente": {
+    "nome": "Isabela Rossi Conti",
+    "cpf": "000.000.084-28",
+    "endereco": "Rua Ipê Amarelo, 544, São Paulo - SP",
+    "renda_mensal": 11660.0
+  },
+  "dados_imovel": {
+    "matricula": "70084",
+    "endereco": "Rua do Imóvel, 84, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00084.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Nome divergente"
+      },
+      "hash_conteudo": "rg-00084"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00084.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.084-28"
+      },
+      "hash_conteudo": "cpf-00084"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00084.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-03",
+      "dados": {
+        "endereco": "Rua Ipê Amarelo, 544, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00084"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00084.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 11660.0
+      },
+      "hash_conteudo": "ren-00084"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00084.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00084"
+    }
+  ]
+}

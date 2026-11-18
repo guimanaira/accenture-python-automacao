@@ -1,0 +1,80 @@
+{
+  "contrato": "00109",
+  "cliente": {
+    "nome": "Isabela Romano Gallo",
+    "cpf": "000.000.109-53",
+    "endereco": "Rua das Acácias, 369, São Paulo - SP",
+    "renda_mensal": 8180.0
+  },
+  "dados_imovel": {
+    "matricula": "70109",
+    "endereco": "Rua do Imóvel, 109, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00109.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Isabela Romano Gallo"
+      },
+      "hash_conteudo": "rg-00109"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00109.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.109-53"
+      },
+      "hash_conteudo": "cpf-00109"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00109.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Acácias, 369, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00109"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00109.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 8180.0
+      },
+      "hash_conteudo": "ren-00109"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00109.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00109"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00109.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Isabela Romano Gallo",
+        "cpf": "000.000.109-53"
+      },
+      "hash_conteudo": "contrato-00109"
+    }
+  ]
+}

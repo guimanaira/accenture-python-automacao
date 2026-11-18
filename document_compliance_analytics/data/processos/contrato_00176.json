@@ -1,0 +1,80 @@
+{
+  "contrato": "00176",
+  "cliente": {
+    "nome": "Mariana Carvalho Nunes",
+    "cpf": "000.000.176-92",
+    "endereco": "Rua Central, 576, São Paulo - SP",
+    "renda_mensal": 12320.0
+  },
+  "dados_imovel": {
+    "matricula": "70176",
+    "endereco": "Rua do Imóvel, 176, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00176.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Mariana Carvalho Nunes"
+      },
+      "hash_conteudo": "rg-00176"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00176.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.176-92"
+      },
+      "hash_conteudo": "cpf-00176"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00176.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua Central, 576, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00176"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00176.pdf",
+      "recebido": true,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 12320.0
+      },
+      "hash_conteudo": "ren-00176"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00176.pdf",
+      "recebido": true,
+      "data_validade": "2027-02-16",
+      "dados": {},
+      "hash_conteudo": "cert-00176"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00176.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Mariana Carvalho Nunes",
+        "cpf": "000.000.176-92"
+      },
+      "hash_conteudo": "contrato-00176"
+    }
+  ]
+}

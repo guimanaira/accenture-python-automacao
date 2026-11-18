@@ -1,0 +1,80 @@
+{
+  "contrato": "00159",
+  "cliente": {
+    "nome": "Isabela Ricci Lombardi",
+    "cpf": "000.000.159-03",
+    "endereco": "Rua das Acácias, 1667, São Paulo - SP",
+    "renda_mensal": 10720.0
+  },
+  "dados_imovel": {
+    "matricula": "70159",
+    "endereco": "Rua do Imóvel, 159, São Paulo - SP"
+  },
+  "checklist": [
+    "identificacao",
+    "cpf",
+    "comprovante_renda",
+    "comprovante_residencia",
+    "certidoes",
+    "contrato_financiamento"
+  ],
+  "documentos": [
+    {
+      "tipo": "identificacao",
+      "nome_arquivo": "rg_00159.pdf",
+      "recebido": true,
+      "data_validade": "2028-04-01",
+      "dados": {
+        "nome": "Isabela Ricci Lombardi"
+      },
+      "hash_conteudo": "rg-00159"
+    },
+    {
+      "tipo": "cpf",
+      "nome_arquivo": "cpf_00159.pdf",
+      "recebido": true,
+      "dados": {
+        "cpf": "000.000.159-03"
+      },
+      "hash_conteudo": "cpf-00159"
+    },
+    {
+      "tipo": "comprovante_residencia",
+      "nome_arquivo": "residencia_00159.pdf",
+      "recebido": true,
+      "data_validade": "2027-01-02",
+      "dados": {
+        "endereco": "Rua das Acácias, 1667, São Paulo - SP"
+      },
+      "hash_conteudo": "res-00159"
+    },
+    {
+      "tipo": "comprovante_renda",
+      "nome_arquivo": "renda_00159.pdf",
+      "recebido": false,
+      "data_validade": "2026-12-03",
+      "dados": {
+        "renda_mensal": 10720.0
+      },
+      "hash_conteudo": "ren-00159"
+    },
+    {
+      "tipo": "certidoes",
+      "nome_arquivo": "certidoes_00159.pdf",
+      "recebido": true,
+      "data_validade": "2026-11-13",
+      "dados": {},
+      "hash_conteudo": "cert-00159"
+    },
+    {
+      "tipo": "contrato_financiamento",
+      "nome_arquivo": "contrato_00159.pdf",
+      "recebido": true,
+      "dados": {
+        "nome": "Isabela Ricci Lombardi",
+        "cpf": "000.000.159-03"
+      },
+      "hash_conteudo": "contrato-00159"
+    }
+  ]
+}
